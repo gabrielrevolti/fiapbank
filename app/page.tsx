@@ -3,9 +3,10 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <div className="">
-      <h1 className="text-2xl">Teste</h1>
-      <Button>Teste</Button>
+    <div className="flex justify-center  h-[90vh]">
+      <div>
+        <p>Teste</p>
+      </div>
     </div>
   );
 }
